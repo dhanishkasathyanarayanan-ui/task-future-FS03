@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DreamNest - Find Your Perfect Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">DREAMNEST</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#properties">Properties</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">YOUR NEXT CHAPTER STARTS HERE</p>
+
+            <h1>Find a Place<br>You'll Call Home.</h1>
+
+            <p>
+                Discover comfortable homes and beautiful spaces
+                that match your lifestyle and budget.
+            </p>
+
+            <a href="#properties" class="main-btn">
+                Explore Homes
+            </a>
+        </div>
+    </section>
+
+    <section class="intro" id="about">
+        <h2>Welcome to DreamNest</h2>
+        <p>
+            Finding a home should be simple and exciting.
+            DreamNest helps you explore different living spaces
+            and find a place that feels right for you.
+        </p>
+    </section>
+
+    <section class="properties" id="properties">
+
+        <p class="small-title">EXPLORE OUR COLLECTION</p>
+        <h2>Homes You May Love</h2>
+
+        <div class="property-container">
+
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"
+                alt="Modern independent house">
+
+                <div class="property-info">
+                    <h3>Modern Family Villa</h3>
+                    <p>3 Bedrooms | 2 Bathrooms</p>
+                    <p class="location">Kovilpatti</p>
+                    <h4>₹15,000 / month</h4>
+                    <button onclick="showDetails('Modern Family Villa')">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800"
+                alt="Beautiful modern home">
+
+                <div class="property-info">
+                    <h3>Elegant City Home</h3>
+                    <p>2 Bedrooms | 2 Bathrooms</p>
+                    <p class="location">Kovilpatti</p>
+                    <h4>₹10,000 / month</h4>
+                    <button onclick="showDetails('Elegant City Home')">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800"
+                alt="Contemporary house">
+
+                <div class="property-info">
+                    <h3>Cozy Comfort House</h3>
+                    <p>2 Bedrooms | 1 Bathroom</p>
+                    <p class="location">Kovilpatti</p>
+                    <h4>₹8,000 / month</h4>
+                    <button onclick="showDetails('Cozy Comfort House')">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Looking for Your Dream Home?</h2>
+        <p>Get in touch with us to know more about available properties.</p>
+
+        <form id="contactForm">
+            <input type="text" id="customerName"
+            placeholder="Your Name" required>
+
+            <input type="email" id="customerEmail"
+            placeholder="Your Email" required>
+
+            <textarea id="customerMessage"
+            placeholder="Tell us what you are looking for"
+            required></textarea>
+
+            <button type="submit">Send Enquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <h2>DREAMNEST</h2>
+        <p>Find Your Place. Build Your Dreams.</p>
+        <p>© 2026 DreamNest. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
